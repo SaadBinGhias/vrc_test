@@ -1,0 +1,11 @@
+.slider_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+}
+.infinity_main {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}

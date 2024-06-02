@@ -1,0 +1,67 @@
+.make_main {
+  background: #fff;
+}
+.make_it_inner {
+  padding: 90px 0;
+}
+.make_it_inner h2 {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 812px;
+  color: #000;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+}
+.accordian_box {
+  padding: 48px;
+  margin-top: 40px;
+  border-radius: 24px;
+  background: #f6f6f6;
+}
+/* -------hover------ */
+/* The Magic */
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+  height: 6em;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.25s;
+}
+
+/* Aesthetic */
+
+.accordion {
+  padding: 0;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #dee2e6;
+  padding: 1em;
+  color: #000;
+}
+
+.accordion h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000;
+  margin: 0 0 8px;
+}
+.accordion {
+  --bs-accordion-bg: transparent !important;
+}
+.accordion-item {
+  border: none;
+}
+.hovered {
+  display: none;
+}
+.main_card:hover + .hovered {
+  display: block !important;
+}

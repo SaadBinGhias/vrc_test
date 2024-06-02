@@ -1,0 +1,30 @@
+.login_heading {
+  color: #fff;
+}
+.Logo_logo__LxL2D svg {
+  height: 48px;
+  width: 234px;
+}
+.Logo_logo__LxL2D {
+  color: #000;
+}
+.login_header_main {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #fff;
+}
+.submit_btn {
+  background: #000;
+  border: 1px solid #000;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+.submit_btn:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+@media screen and (max-width: 450px) {
+  .login_inner {
+    width: 100%;
+  }
+}
